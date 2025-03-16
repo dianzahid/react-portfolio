@@ -1,12 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Routes, Route } from 'react-router-dom'
 import './App.scss'
+import Layout from './components/Layout/index.jsx';
+import Home from './components/Home/index.jsx';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return 
+  return  (
+    <>
+      <Routes>
+        <Route path="/" element={<Layout/>}>
+          <Route index element={<Home/>}/> 
+        </Route>
+      </Routes> 
+    </>
+  )
 }
 
 export default App
