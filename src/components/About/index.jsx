@@ -16,16 +16,67 @@ const About = () => {
            <div className="skill-title">
             <h1>Skills</h1>
            </div>
-           <div className="skill">
-            <p>JavaScript, React, Node.js, Python, Java, HTML/CSS, Git, MongoDB, Express.js</p>
+           <div className="skills-grid">
+             <div className="skill-item">
+               <div className="skill-icon"></div>
+               <div className="skill-label">Software Testing</div>
+             </div>
+             <div className="skill-item">
+               <div className="skill-icon"></div>
+               <div className="skill-label">Java</div>
+             </div>
+             <div className="skill-item">
+               <div className="skill-icon"></div>
+               <div className="skill-label">JavaScript</div>
+             </div>
+             <div className="skill-item">
+               <div className="skill-icon"></div>
+               <div className="skill-label">React</div>
+             </div>
+             <div className="skill-item">
+               <div className="skill-icon"></div>
+               <div className="skill-label">HTML & CSS</div>
+             </div>
+             <div className="skill-item">
+               <div className="skill-icon"></div>
+               <div className="skill-label">Git/GitHub</div>
+             </div>
+             <div className="skill-item">
+               <div className="skill-icon"></div>
+               <div className="skill-label">SQL</div>
+             </div>
+             <div className="skill-item">
+               <div className="skill-icon"></div>
+               <div className="skill-label">+ More</div>
+             </div>
            </div>
           </div>
           <div className="showcase-projects">
           <div className="projects-title">
             <h1>Projects</h1>
            </div>
-           <div className="projects">
-            <p>Algorithm Visualizer, Bookstore System, E-commerce Website, Tutoring Platform</p>
+           <div className="projects-grid">
+             <div className="project-item">
+               <div className="project-image"></div>
+               <div className="project-content">
+                 <h3 className="project-title">Algorithm Visualizer</h3>
+                 <p className="project-description">An interactive tool built with React, Tailwind CSS, and JavaScript to visualize sorting and pathfinding algorithms such as Merge Sort, Quick Sort, BFS/DFS, and Dijkstra's. Designed with a responsive UI to make complex algorithms intuitive and accessible for learners.</p>
+               </div>
+             </div>
+             <div className="project-item">
+               <div className="project-image"></div>
+               <div className="project-content">
+                 <h3 className="project-title">Mock E-Commerce Website</h3>
+                 <p className="project-description">A responsive e-commerce platform developed with React, JavaScript, and API integration, featuring dynamic product listings and a real-time shopping cart system. Automated testing with Jasmine ensured reliability and scalability.</p>
+               </div>
+             </div>
+             <div className="project-item">
+               <div className="project-image"></div>
+               <div className="project-content">
+                 <h3 className="project-title">Bookstore Application (Java, State Design Pattern)</h3>
+                 <p className="project-description">A Java-based bookstore management system implementing the State Design Pattern to handle inventory, checkout, and transaction flows. Built with clean, modular, and maintainable code following OOP principles.</p>
+               </div>
+             </div>
            </div>
 
           </div>
