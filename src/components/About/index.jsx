@@ -1,4 +1,15 @@
 import './index.scss'
+import logoJas from '../../assets/images/Logo-Jasmine.svg'
+import logoGit from '../../assets/images/git-github-logo.avif'
+import logoHTML from '../../assets/images/html-css-logo.png'
+import logoJava from '../../assets/images/java-icon.png'
+import logoJS from '../../assets/images/JavaScript-logo.png'
+import logoPLUS from '../../assets/images/plus-more-logo.png'
+import logoSQL from '../../assets/images/sql-logo.webp'
+import logoReact from '../../assets/images/React-icon.png'
+import imageAV from '../../assets/images/AV-image.png'
+import imageBook from '../../assets/images/Bookstore-image.png'
+import imageEcom from '../../assets/images/Ecom-image.png'
 
 const About = () => {
   return (
@@ -18,35 +29,51 @@ const About = () => {
            </div>
            <div className="skills-grid">
              <div className="skill-item">
-               <div className="skill-icon"></div>
+               <div className="skill-icon">
+                <img src={logoJas} />
+               </div>
                <div className="skill-label">Software Testing</div>
              </div>
              <div className="skill-item">
-               <div className="skill-icon"></div>
+               <div className="skill-icon">
+               <img src={logoJava} />
+               </div>
                <div className="skill-label">Java</div>
              </div>
              <div className="skill-item">
-               <div className="skill-icon"></div>
+               <div className="skill-icon">
+               <img src={logoJS} />
+               </div>
                <div className="skill-label">JavaScript</div>
              </div>
              <div className="skill-item">
-               <div className="skill-icon"></div>
+               <div className="skill-icon">
+               <img src={logoReact} />
+               </div>
                <div className="skill-label">React</div>
              </div>
              <div className="skill-item">
-               <div className="skill-icon"></div>
+               <div className="skill-icon">
+               <img src={logoHTML} />
+               </div>
                <div className="skill-label">HTML & CSS</div>
              </div>
              <div className="skill-item">
-               <div className="skill-icon"></div>
+               <div className="skill-icon">
+               <img src={logoGit} />
+               </div>
                <div className="skill-label">Git/GitHub</div>
              </div>
              <div className="skill-item">
-               <div className="skill-icon"></div>
+               <div className="skill-icon">
+               <img src={logoSQL} />
+               </div>
                <div className="skill-label">SQL</div>
              </div>
              <div className="skill-item">
-               <div className="skill-icon"></div>
+               <div className="skill-icon">
+               <img src={logoPLUS} />
+               </div>
                <div className="skill-label">+ More</div>
              </div>
            </div>
@@ -57,21 +84,27 @@ const About = () => {
            </div>
            <div className="projects-grid">
              <div className="project-item">
-               <div className="project-image"></div>
+               <div className="project-image">
+               <img src={imageAV} />
+               </div>
                <div className="project-content">
                  <h3 className="project-title">Algorithm Visualizer</h3>
                  <p className="project-description">An interactive tool built with React, Tailwind CSS, and JavaScript to visualize sorting and pathfinding algorithms such as Merge Sort, Quick Sort, BFS/DFS, and Dijkstra's. Designed with a responsive UI to make complex algorithms intuitive and accessible for learners.</p>
                </div>
              </div>
              <div className="project-item">
-               <div className="project-image"></div>
+               <div className="project-image">
+               <img src={imageEcom} />
+               </div>
                <div className="project-content">
                  <h3 className="project-title">Mock E-Commerce Website</h3>
                  <p className="project-description">A responsive e-commerce platform developed with React, JavaScript, and API integration, featuring dynamic product listings and a real-time shopping cart system. Automated testing with Jasmine ensured reliability and scalability.</p>
                </div>
              </div>
              <div className="project-item">
-               <div className="project-image"></div>
+               <div className="project-image">
+               <img src={imageBook} />
+               </div>
                <div className="project-content">
                  <h3 className="project-title">Bookstore Application (Java, State Design Pattern)</h3>
                  <p className="project-description">A Java-based bookstore management system implementing the State Design Pattern to handle inventory, checkout, and transaction flows. Built with clean, modular, and maintainable code following OOP principles.</p>
