@@ -1,5 +1,5 @@
 import './index.scss'
-import logoJas from '../../assets/images/Logo-Jasmine.svg'
+import logoJas from '../../assets/images/Logo-jasmine.svg'
 import logoGit from '../../assets/images/git-github-logo.avif'
 import logoHTML from '../../assets/images/html-css-logo.png'
 import logoJava from '../../assets/images/java-icon.png'
